@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{FE5D69A3-2E87-2C70-0A88-2BC80BFFBF94}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SCRIPTS/LightController.cs">
+    <Files>
+      <File FileName="Assets/GetSpectrumData.cs" Line="38" Column="1" />
+      <File FileName="Assets/ParticleAudioVisualiser.cs" Line="1" Column="1" />
+      <File FileName="Assets/ReactiveparticleShader.shader" Line="1" Column="1" />
+      <File FileName="Assets/ReactiveSphereShader.shader" Line="118" Column="1" />
+      <File FileName="Assets/MidReactiveParticleShader.shader" Line="50" Column="68" />
+      <File FileName="Assets/HighReactiveParticleShader.shader" Line="1" Column="20" />
+      <File FileName="Assets/SphereController.cs" Line="13" Column="41" />
+      <File FileName="Assets/LightController.cs" Line="8" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FFT VISUALISER" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="SCRIPTS" expanded="True">
+                <Node name="LightController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="38b37a17-846b-4cf9-af5a-bace5af0461f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

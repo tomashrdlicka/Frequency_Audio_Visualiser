@@ -1,6 +1,6 @@
-# Unity Audio Visualizer Project
+# Unity Audio Visualizer Project (Frequency mapping)
 
-This project is an advanced audio visualizer built with Unity, designed to transform audio input into a captivating visual display. It features dynamic particle systems, interactive lights, and reactive materials that respond to audio frequency data to create an immersive visual experience. This document outlines the project components, their functions, and setup instructions.
+This project is an audio visualizer built with Unity, designed to transform audio input into a captivating visual display. It features dynamic particle systems, interactive lights, and reactive materials that respond to audio frequency data to create an immersive visual experience. This document outlines the project components, their functions, and setup instructions.
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -22,13 +22,13 @@ This project is an advanced audio visualizer built with Unity, designed to trans
    - [HighParticleMaterial](#highparticlematerial)
    - [ReactiveSphereMaterial](#reactivespherematerial)
 6. [Installation and Setup](#installation-and-setup)
-7. [How It Works](#how-it-works)
-8. [Future Enhancements](#future-enhancements)
+7. [How To Use](#how-to-use)
+8. [Song Credit](#song-credit)
 9. [License](#license)
 
 ## Overview
 
-The Unity Audio Visualizer Project transforms audio data into interactive, real-time visualizations. This project supports a variety of audio-reactive elements, including particle effects, dynamic lighting, and shaders, that respond to different frequency bands (bass, mid, high). This allows for a visually compelling experience synced to music or other audio sources.
+The Unity Audio Visualizer Project transforms audio data into interactive, real-time visualizations. This project supports a variety of audio-reactive elements, including particle effects, dynamic lighting, and shaders, that respond to different frequency bands (bass, mid, high). This allows for a visually compelling experience synced to music of choice.
 
 ## Project Structure
 
@@ -63,7 +63,7 @@ The Unity Audio Visualizer Project transforms audio data into interactive, real-
 **Detailed Explanation**:
 - The script references `AudioSpectrum.spectrum` to gather amplitude data.
 - Smooths amplitude changes to prevent abrupt visual transitions.
-- Adjusts particle color based on the assigned frequency range, creating a differentiated look for each band.
+- Adjusts particle and trail color based on the assigned frequency range, creating a differentiated look for each band.
 
 ### LightIntensityController.cs
 **Purpose**: Dynamically adjusts the intensity of point lights based on high-frequency audio amplitude for additional visual emphasis.
@@ -130,9 +130,26 @@ The Unity Audio Visualizer Project transforms audio data into interactive, real-
 ### ReactiveSphereMaterial
 **Usage**: Attached to the sphere with `ReactiveSphereShader` for an audio-reactive background that adapts to sound data.
 
-## Installation and Setup
+## How to Use This Project
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/AudioVisualizerProject.git
+1. **Clone or download the repository** from GitHub.
+2. **Open the project in Unity** (compatible with Unity version 2020.3+).
+3. **Add your audio source**:
+   - Drag a song of choice into the MUSIC folder.
+   - Click on the AudioSource in Hierarchy view.
+   - Replace the AudioClip in Inspector view with your song.
+4. **Run on a VR headset**:
+   - This project was configured to run on Quest 2, reconfiguration might be needed for other headsets.
+   - If using Quest 2, connect the device (in Developer mode) via cable to your computer
+   - Go to File tab -> Build & Run
+   - Run project on headset
+
+
+## Song Credit
+Reference song used for project construction is Dog Days Are Ove - Florence & the Machine (Fitch Remix) (BIG UP!)
+
+
+## License
+
+This project is available under the [MIT License](LICENSE), making it free to use and modify.
 

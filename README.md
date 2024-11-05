@@ -2,6 +2,8 @@
 
 This project is an audio visualizer built with Unity, designed to transform audio input into a captivating visual display. It features dynamic particle systems, interactive lights, and reactive materials that respond to audio frequency data to create an immersive visual experience. This document outlines the project components, their functions, and setup instructions.
 
+![Game Mode Showcase of Project](Showcase1.gif)
+
 ## Table of Contents
 1. [Overview](#overview)
 2. [Project Structure](#project-structure)
@@ -149,6 +151,7 @@ The scene is illuminated by a central light and eight peripheral lights, arrange
    - Go to File tab -> Build & Run
    - Run project on headset
 
+![Scene Mode Showcase of Project](Showcase2.gif)
 
 ## Song Credit
 Reference song used for project construction is Dog Days Are Over - Florence & the Machine (Fitch Remix) (BIG UP!)

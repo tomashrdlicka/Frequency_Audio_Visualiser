@@ -28,7 +28,12 @@ This project is an audio visualizer built with Unity, designed to transform audi
 
 ## Overview
 
-The Unity Audio Visualizer Project transforms audio data into interactive, real-time visualizations. This project supports a variety of audio-reactive elements, including particle effects, dynamic lighting, and shaders, that respond to different frequency bands (bass, mid, high). This allows for a visually compelling experience synced to music of choice.
+The Unity Audio Visualizer Project transforms audio data into interactive, real-time visualizations. This project supports a variety of audio-reactive elements, including particle effects, dynamic lighting, and shaders that respond to different frequency bands (bass, mid, high). 
+
+Each frequency band is mapped to a distinct pair of particle emitters, each with unique trail properties and color gradients to create visually differentiated reactions. 
+
+The scene is illuminated by a central light and eight peripheral lights, arranged to form a cube around the emitters, enhancing the depth and visual impact of the particle displays. The entire setup is projected against a rotating, audio-reactive spherical background, textured with a seamless color gradient that shifts dynamically in response to the audio, adding a vibrant and immersive backdrop to the visualization.
+
 
 ## Project Structure
 
@@ -146,7 +151,7 @@ The Unity Audio Visualizer Project transforms audio data into interactive, real-
 
 
 ## Song Credit
-Reference song used for project construction is Dog Days Are Ove - Florence & the Machine (Fitch Remix) (BIG UP!)
+Reference song used for project construction is Dog Days Are Over - Florence & the Machine (Fitch Remix) (BIG UP!)
 
 
 ## License

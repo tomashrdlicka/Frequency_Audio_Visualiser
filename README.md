@@ -23,10 +23,9 @@ This project is an audio visualizer built with Unity, designed to transform audi
    - [MidParticleMaterial](#midparticlematerial)
    - [HighParticleMaterial](#highparticlematerial)
    - [ReactiveSphereMaterial](#reactivespherematerial)
-6. [Installation and Setup](#installation-and-setup)
-7. [How To Use](#how-to-use)
-8. [Song Credit](#song-credit)
-9. [License](#license)
+6. [How To Use](#how-to-use)
+7. [Song Credit](#song-credit)
+8. [License](#license)
 
 ## Overview
 

@@ -1,4 +1,0 @@
-#Thu Oct 31 13:35:40 CET 2024
-base.0=/Users/tomashrdlicka/Desktop/UNITY/FFT VISUALISER/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

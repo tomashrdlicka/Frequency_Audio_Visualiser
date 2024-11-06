@@ -1,4 +1,4 @@
-# Unity Audio Visualizer Project (Frequency mapping)
+# Unity Frequency Mapping Audio Visualiser Project (VR)
 
 This project is an audio visualizer built with Unity, designed to transform audio input into a captivating visual display. It features dynamic particle systems, interactive lights, and reactive materials that respond to audio frequency data to create an immersive visual experience. This document outlines the project components, their functions, and setup instructions.
 
